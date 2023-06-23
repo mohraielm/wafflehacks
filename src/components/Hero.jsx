@@ -15,7 +15,8 @@ const Hero = () => {
             </button>
         </nav>
         <h1 className="head_text">
-            Create your next itinerary with <br />
+            Create your next itinerary with <br 
+            className="max-md:hidden"/>
             <span className="green_gradient"> AI-tinerary </span>
 
         </h1>
