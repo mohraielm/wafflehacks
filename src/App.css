@@ -17,7 +17,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: #e6e6dd;
   position: absolute;
   content: "";
   z-index: 2;
@@ -84,7 +84,7 @@
 }
 
 .green_gradient {
-  @apply bg-gradient-to-r from-rose-100 via-slate-500 to-cyan-800 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-slate-400 via-slate-500 to-cyan-900 bg-clip-text text-transparent;
 }
 
 .desc {
