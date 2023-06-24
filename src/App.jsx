@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Demo from "./components/Demo";
 import UserList from "./components/UserList";
+import UserChecker from "./components/UserChecker";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Hero />
         <Demo />
         <UserList/>
+        <UserChecker/>
       </div>
     </main>
   )
