@@ -1,4 +1,4 @@
-import linkIcon from './link.svg'
+import linkIcon from './airplane.png'
 import loader from './loader.svg'
 import copy from './copy.svg'
 import logo from './logo.png'
