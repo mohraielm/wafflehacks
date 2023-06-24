@@ -18,3 +18,10 @@ const App = () => {
 }
 
 export default App
+
+
+// 1. get username
+// 2. tikapi to get top videos
+// 3. check database for video uid
+// 4. if uid exists, increment count
+// 5. otherwise, insert into database
