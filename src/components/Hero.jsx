@@ -25,7 +25,18 @@ const Hero = () => {
             Travelling soon? Plan your next itinerary with your AI assistant!
 
         </h2>
+                {/* <form>
+
+        <h3>
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
+</form>
+        </h3> */}
         </header>
+        
   )
 }
 

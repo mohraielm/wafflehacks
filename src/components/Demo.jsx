@@ -4,7 +4,7 @@ import {copy,linkIcon,loader,tick} from '../assets/assets';
 const Demo = () => {
   return (
     <section className="mt-16 w-full max-w-xl">
-      {/*Search*/}
+      {/* Search
       <div className="flex flex-col w-full gap-2">
 
         <form
@@ -34,7 +34,7 @@ const Demo = () => {
                  <p>💼</p>
               </button>
         </form>
-      </div>
+      </div> */}
 
     </section>
   )
