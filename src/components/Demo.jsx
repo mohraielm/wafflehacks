@@ -23,7 +23,7 @@ const Demo = () => {
               value=""
               onChange={()=>{}}
               required
-              className="text_input peer"
+              className="url_input peer"
               />
 
               <button
