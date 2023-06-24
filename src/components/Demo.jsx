@@ -29,8 +29,8 @@ const Demo = () => {
               <button
               type="submit"
               className="submit_btn
-               peer-focus:border-gray-700 
-               peer-forcus:text-gray-700">
+              peer-focus:border-gray-700
+              peer-focus:border-gray-700">
                  <p>💼</p>
               </button>
         </form>
