@@ -17,7 +17,7 @@
 }
 
 .main:before {
-  background: #e6e6dd;
+  background: #252525;
   position: absolute;
   content: "";
   z-index: 2;
