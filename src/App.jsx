@@ -46,7 +46,7 @@ const App = () => {
   return (
 
     <main>
-        <input
+        {/* <input
     type="text"
     name="username"
     placeholder="Enter Username"
@@ -64,7 +64,7 @@ Submit
         <div className="gradient" />
       </div>
       <div style={{zIndex:200}}>
-      </div>
+      </div> */} 
     <div>
     {/* need a state variable for input
     need an input that has an onChange event handler
@@ -75,7 +75,15 @@ the onchange event handler updates the state variable
       <div className="app">
         <Hero />
         <Demo />
-        <UserList />
+        {/* <UserList /> */}
+        <div></div>
+        <input type="text" name="username" placeholder="Enter Username" value={userName} onChange={handleInputChange}/>
+        <button type="button" onClick={handleSubmit}> Submit</button>
+        <header>{logid}</header>
+        <h1>{text}</h1>
+      {/* <div className="main">
+        <div className="gradient" /> // gradient covers the whole frontend page
+      </div> */}  
       </div>
     </main>
   );
