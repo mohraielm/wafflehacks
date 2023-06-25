@@ -47,11 +47,14 @@ def findUser():
         response = api.public.check(
         username=data["userName"]
     )
-        print(response.json())
+        res = response.json()
+        print(res)
         
         #this code adds username to the database
-        DB['TiktokVids'].insert_one({"some key": data["userName"],})
-        return response.json()
+        #use response.json userName (can put more keys after comma)
+        DB['UserData'].insert_one({"name": res["userInfo"]["user"]["nickname"], "followerCount": res["userInfo"]["stats"]["followerCount"]})
+        #use response.json to obtain user info
+        return res
 
 
     except ValidationException as e:
